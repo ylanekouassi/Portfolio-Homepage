@@ -17,13 +17,25 @@ header {
 nav {
     display: flex;
     column-gap: 100px;
-
+    
 }
 nav a{
     text-decoration: none;
-    font-size: ;
-    font-family: ;
-    font-weight: ;
-    color: ;
+    color: black;
+    font-size: 20px;
+}
+
+main {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+.profile-paragraph {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
 }
 
