@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #ffffff;
     font-family: cursive;
 }
 
@@ -17,12 +17,11 @@ header {
 nav {
     display: flex;
     column-gap: 100px;
-    
 }
 nav a{
     text-decoration: none;
-    color: black;
     font-size: 20px;
+    color: #a8a7a7;
 }
 
 main {
@@ -37,5 +36,14 @@ main {
     flex-direction: column;
     text-align: center;
     align-self: center;
+    color: #a8a7a7;
+    font-size: 20px;
 }
 
+.name {
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+}
